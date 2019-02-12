@@ -3,7 +3,7 @@ require "pry"
 class Hash
   def keys_of(*arguments)
     array =[]
-   select 
+   select { |key, value| }
       binding.pry
   return array
 end
