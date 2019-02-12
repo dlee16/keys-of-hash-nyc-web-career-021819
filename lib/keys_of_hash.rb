@@ -3,6 +3,6 @@ require "pry"
 class Hash
   def keys_of(*arguments)
    select { |key, value| arguments.include? value}.keys
-      binding.pry
+      # binding.pry
 end
 end
