@@ -7,5 +7,6 @@ class Hash
       binding.pry
   return array
 end
-
+end
+end
 end
