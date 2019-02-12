@@ -1,5 +1,9 @@
+require "pry"
+
 class Hash
   def keys_of(arguments)
-    # code goes here
-  end
+    array =[]
+    
+  return array
+end 
 end
