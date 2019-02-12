@@ -2,8 +2,7 @@ require "pry"
 
 class Hash
   def keys_of(*arguments)
-    array =[]
-   select { |key, value| if }
+   select { |key, value| if arguments.include?value}
       binding.pry
   return array
 end
